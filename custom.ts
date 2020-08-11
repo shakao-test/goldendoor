@@ -26,7 +26,10 @@ namespace custom {
     export function checkDoor(doorNum: number): void {
         if (doorNum == 1) {
             basic.showIcon(IconNames.Yes)
-            music.startMelody(music.builtInMelody(Melodies.BaDing), MelodyOptions.Once)
+            for (let index = 0; index < 3; index++) {
+                music.startMelody(music.builtInMelody(Melodies.BaDing), MelodyOptions.OnceInBackground)
+                basic.pause(500)
+            }
             basic.showString("You found it!")
         } else {
             basic.showIcon(IconNames.No)
