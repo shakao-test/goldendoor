@@ -18,9 +18,7 @@ enum MyEnum {
 namespace custom {
     /**
      * TODO: describe your function here
-     * @param n describe parameter here, eg: 5
-     * @param s describe parameter here, eg: "Hello"
-     * @param e describe parameter here
+     * @param checkDoor is the pin the user clicked, eg: 0
      */
     //% block
     export function checkDoor(doorNum: number): void {
