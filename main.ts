@@ -1,1 +1,1 @@
-custom.checkDoor(0)
+
