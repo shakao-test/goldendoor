@@ -27,21 +27,21 @@ input.onPinPressed(TouchPin.P0, function () {
 
 ## Step 3 
 
-Do the same thing for pin P1.
+Do the same thing for pin P1, but make sure you're checking door 1.
 
 ```blocks
 input.onPinPressed(TouchPin.P1, function () {
-    custom.checkDoor(0)
+    custom.checkDoor(1)
 })
 ```
 
 ## Step 4 
 
-Do the same thing for pin P2.
+Do the same thing for pin P2, but check door 2.
 
 ```blocks
 input.onPinPressed(TouchPin.P2, function () {
-    custom.checkDoor(0)
+    custom.checkDoor(2)
 })
 ```
 
