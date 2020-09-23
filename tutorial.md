@@ -6,7 +6,7 @@ This tutorial will help you solve your first microbit mystery!
 
 ## Step 1 @fullscreen
 
-Drag a 'on Pin0 pressed' block into the work area.
+Drag an 'on Pin0 pressed' block into the work area.
 
 ```blocks
 input.onPinPressed(TouchPin.P0, function () {
