@@ -1,7 +1,7 @@
 
 > Open this page at [https://kiki-lee.github.io/goldendoor/](https://kiki-lee.github.io/goldendoor/)
 
-## Use as Extension
+## Use as Extension 
 
 This repository can be added as an **extension** in MakeCode.
 
